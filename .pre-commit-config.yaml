@@ -33,6 +33,7 @@ repos:
       - id: end-of-file-fixer
         exclude: ./tests/
       - id: check-yaml
+      - id: check-toml
 
 ci:
   autofix_commit_msg: 🎨 [pre-commit.ci] Auto format from pre-commit.com hooks
